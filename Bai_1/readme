@@ -1,0 +1,15 @@
+Cho mảng có n phần tử không quá 32bit, hãy đếm số lượng số chẵn và số lẻ.
+
+Input:
+
+Dòng đầu tiên là số nguyên n.
+
+Dòng tiếp theo chứa n phần tử của mảng.
+
+Constrains:
+
+1 <= n <= 1000.
+
+Output:
+
+In ra số lượng số chẵn, lẻ trên một dòng.
