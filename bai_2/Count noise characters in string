@@ -1,1 +1,16 @@
+Một coder viết mã nguồn và muốn giấu nội dung thật. Sau mỗi ký tự thứ i, coder đó chèn thêm i ký tự nhiễu để mã hóa. 
 
+Yêu cầu:
+
+Cho n dòng mã gốc, tính số ký tự nhiễu đã được chèn vào mỗi dòng. 
+
+Input: 
+
+Dòng 1: Số nguyên n (n < 100) 
+
+n dòng tiếp theo: mỗi dòng là một chuỗi ký tự (độ dài ≤ 1000)
+
+
+Output: 
+
+n dòng, mỗi dòng là số ký tự nhiễu tương ứng.
