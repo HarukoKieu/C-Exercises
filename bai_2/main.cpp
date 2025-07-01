@@ -5,7 +5,7 @@ int main() {
     cin.ignore();
     for (int i = 0; i < n; i++) {
         string s; getline(cin, s);        
-        cout << s.size() * (s.size() + 1) / 2;
+        cout << (s.size() * (s.size() + 1)) / 2 << endl;
     }
     return 0;
-} 
+}
