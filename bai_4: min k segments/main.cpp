@@ -28,14 +28,18 @@ output:
 13
 */
 
-/* Ý tưởng thuật toán: Duyệt lần lượt qua từng đoạn [li, ri].
+/* Ý tưởng thuật toán:
 
-Dịch chuyển khoảng ±k, rồi lấy giao với [li, ri] để cập nhật khoảng hợp lệ.
+Duyệt lần lượt qua từng đoạn [li, ri].
+
+Dịch chuyển khoảng ± k, rồi lấy giao với [li, ri] để cập nhật khoảng hợp lệ.
 
 Nếu giao rỗng → k không hợp lệ.
 
-Vì k càng lớn thì càng dễ thỏa mãn, dùng binary search để tìm k nhỏ nhất hợp lệ.
-*/  
+Vì k càng lớn thì càng dễ thỏa mãn, dùng binary search để tìm k nhỏ nhất hợp lệ. */  
+
+// Code:
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
