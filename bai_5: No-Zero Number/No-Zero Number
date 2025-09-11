@@ -1,0 +1,32 @@
+Trò chơi No-Zero Number
+
+Bạn được cho một số nguyên n. Hãy tìm 2 số nguyên dương a, b sao cho:
+
+a + b = n và a, b ≠ 0.
+
+Input:
+
+Một số nguyên dương n.
+
+
+Output:
+
+In ra 2 số nguyên dương a, b.
+
+
+Constraints:
+
+2 ≤ n ≤ 10^4
+
+
+Example: 
+
+Input:
+
+16
+
+Output:
+
+1, 15
+
+(Các đáp án hợp lệ khác vẫn được chấp nhận. Ví dụ: 2, 14) 
